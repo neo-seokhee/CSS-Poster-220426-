@@ -1,0 +1,92 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+
+body {
+  background-color: #f6f6f6;
+  padding: 50px 25px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  max-width: 770px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 40px;
+  margin-top: 20px;
+  background-color: rgba(250, 232, 205, 0.048);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  border-bottom: 2px solid black;
+  padding: 0 0 10px 0;
+}
+
+.top_h1 {
+  font-size: 110px;
+  font-weight: 600;
+}
+
+.top h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.mid {
+  padding: 20px 0 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mid_column:first-child {
+  width: 20%;
+  font-size: 8px;
+  line-height: 1.6em;
+}
+
+.mid_column:nth-child(2) {
+  width: 50%;
+  font-size: 8px;
+  line-height: 1.6em;
+}
+
+.mid_column:last-child {
+  width: 30%;
+  font-size: 8px;
+  text-align: right;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+  flex-wrap: wrap;
+  height: 700px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.bottom_top {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(176, 218, 237);
+  border-radius: 50%;
+  margin: 10px 0;
+}
+.bottom_mid {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(78, 80, 82);
+  border-radius: 50%;
+  margin: 10px 0;
+}
+.bottom_bot {
+  width: 220px;
+  height: 220px;
+  background-color: rgb(35, 151, 79);
+  border-radius: 50%;
+  margin: 10px 0;
+}
